@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import calculatorIcon from './assets/images/icon-calculator.svg'
+import emptyIllustration from './assets/images/illustration-empty.svg'
 
 const App = () => {
   // Form state
@@ -311,7 +313,7 @@ const App = () => {
                   </>
                 ) : (
                   <>
-                    <img src="src/assets/images/icon-calculator.svg" alt="calculator" className='w-5 h-5 sm:w-6 sm:h-6' />
+                    <img src={calculatorIcon} alt="calculator" className='w-5 h-5 sm:w-6 sm:h-6' />
                     Calculate Repayments
                   </>
                 )}
@@ -401,7 +403,7 @@ const App = () => {
             </div>
           ) : (
             <div className='text-center'>
-              <img src="src/assets/images/illustration-empty.svg" alt="illustration" className='w-32 sm:w-40 md:w-48 lg:w-56 mb-4 sm:mb-6 mx-auto'/>
+              <img src={emptyIllustration} alt="illustration" className='w-32 sm:w-40 md:w-48 lg:w-56 mb-4 sm:mb-6 mx-auto'/>
               <h1 className='text-xl sm:text-2xl md:text-3xl lg:text-4xl font-medium mb-3 sm:mb-4'>Results shown here</h1>
               <p className='text-sm sm:text-base md:text-lg text-center max-w-md opacity-90 leading-relaxed mx-auto'>
                 Complete the form and click 'Calculate Repayments' to see what your monthly repayment would be
