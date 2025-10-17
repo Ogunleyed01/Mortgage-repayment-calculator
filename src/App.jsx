@@ -47,7 +47,7 @@ const App = () => {
       amount: '',
       term: '',
       rate: '',
-      mortgageType: 'repayment'
+      mortgageType: ''
     })
     setResults(null)
     setErrors({})
