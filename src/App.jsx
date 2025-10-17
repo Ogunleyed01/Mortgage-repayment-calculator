@@ -8,7 +8,7 @@ const App = () => {
     amount: '',
     term: '',
     rate: '',
-    mortgageType: 'repayment'
+    mortgageType: ''
   })
 
   // Results state
